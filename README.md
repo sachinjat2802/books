@@ -65,12 +65,12 @@ Follow these steps to set up and run the application locally:
 
 1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/book-management-api.git
+   git clone https://github.com/sachinjat2802/books
    ```
 
 2. Navigate to the project directory.
    ```bash
-   cd book-management-api
+   cd books
    ```
 
 3. Install the required dependencies.
@@ -83,6 +83,7 @@ Follow these steps to set up and run the application locally:
 5. Create a `.env` file in the project root and add your MongoDB connection string as follows:
    ```
    MONGODB_URI=your-connection-string
+   Port = your port number
    ```
 
 6. Start the application.
@@ -90,7 +91,7 @@ Follow these steps to set up and run the application locally:
    npm start
    ```
 
-7. The API will be accessible at `http://localhost:3000`.
+7. The API will be accessible at `http://localhost:port`.
 
 ## Decisions and Assumptions
 
